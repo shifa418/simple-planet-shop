@@ -1,0 +1,182 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    Color: #333;
+    line-height: 1.6;
+   }
+   
+   header {
+    background: #59a66a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+   }
+   
+   .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+   }
+   
+   nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+   }
+   
+   name of {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   }
+   
+   nav a:hover {
+    text-decoration: underline;
+   }
+   
+   section {
+    padding: 60px 20px;
+    text-align: center;
+   }
+   
+   #home {
+    background: #d8f3dc;
+   }
+   
+   #offers {
+    background: #c1e1c1;
+   }
+   
+   #buy {
+    background: #b7e4c7;
+   }
+   
+   #view {
+    background: #95d5b2;
+   }
+   
+   #about {
+    background: #74c69d;
+    color: white;
+   }
+   
+   #signup {
+    background: #59a66a;
+    color: white;
+   }
+   
+   #signup form {
+    margin-top: 20px;
+   }
+   
+   #signup input,
+   #signup button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   
+   #signup input {
+    width: 200px;
+   }
+   
+   #signup button {
+    background-color: white;
+    color: #59a66a;
+    border: 2px solid #59a66a;
+    font-weight: bold;
+    cursor: pointer;
+   }
+   
+   #signup button:hover {
+    background-color: #fff;
+    color: #357a46;
+   }
+   
+   footer {
+    background: #59a66a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+   }
+   /* Navigation Section */
+#nav {
+    background-color: #59a66a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    margin: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    color: #003300;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  .bg-space {
+    background-color: #422703;
+  }
+  
+  .navbar .nav-link {
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #59a66a !important;
+  }
+  
+  .section {
+    padding: 80px 20px;
+  }
+  
+  #home {
+    background-color: #d0e8f2;
+  }
+  
+  footer {
+    background-color: #442a03;
+    color: white;
+  }
+  
